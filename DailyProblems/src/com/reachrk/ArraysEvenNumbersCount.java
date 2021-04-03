@@ -6,6 +6,14 @@ public class ArraysEvenNumbersCount {
 		int[] nums= {437,315,322,431,686,264,442};
 		System.out.println( findNumbers(nums));
 	}
+
+	/*
+	 * Given an array nums of integers, return how many of them contain an even
+	 * number of digits. 
+	 * Input: nums = [555,901,482,1771]
+	 * Output: 1 
+	 * Explanation: Only 1771 contains an even number of digits.
+	 */
 	
 	public static int findNumbers(int[] nums) {
 		int evenDigitsCount = 0;
